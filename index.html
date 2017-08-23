@@ -2,9 +2,25 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <title>Hangman</title>
     </head>
     <body>
+	
+	<div class="container">
+		<div class="card">
+			<div class="card-header">
+				 Hangman
+			</div>
+			<div class="card-body">
+				<p class="card-text">Wins:<span id="winCount">99</span></p>
+				<p class="card-text">Letters Guessed:<span id="lettersGuessed">99</span></p>
+				<p class="card-text" id="displayWord"></p>
+				<p class="card-text">Guesses Remaining:<span id="guessesLeft">99</span></p>
+			</div>
+		</div>
+	</div>
 
 <script type="text/javascript">
 // CODE HERE
